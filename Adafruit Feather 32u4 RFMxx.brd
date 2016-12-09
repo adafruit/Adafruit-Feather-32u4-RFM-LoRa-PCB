@@ -6166,7 +6166,7 @@ einem neuen Namen ab.</description>
 <wire x1="28.956" y1="7.112" x2="28.448" y2="6.604" width="0.254" layer="1"/>
 <wire x1="28.448" y1="6.604" x2="27.305" y2="6.604" width="0.254" layer="1"/>
 <wire x1="27.305" y1="6.604" x2="26.924" y2="6.223" width="0.254" layer="1"/>
-<wire x1="26.924" y1="6.223" x2="26.924" y2="5.4545" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="6.223" x2="26.85610625" y2="5.38660625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC1" pad="17"/>
