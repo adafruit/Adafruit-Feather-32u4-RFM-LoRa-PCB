@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5365,6 +5365,11 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <pinref part="U4" gate="G$1" pin="NSS"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="236.22" y1="127" x2="254" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PB4(ADC11)"/>
+<label x="238.76" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D7_IRQ" class="0">
 <segment>
@@ -5445,13 +5450,6 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <pinref part="U4" gate="G$1" pin="DIO5"/>
 </segment>
 </net>
-<net name="8" class="0">
-<segment>
-<wire x1="236.22" y1="127" x2="254" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="PB4(ADC11)"/>
-<label x="238.76" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -5461,12 +5459,6 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <approved hash="104,1,55.88,99.06,U3,VDD,VBUS,,,"/>
 <approved hash="104,1,81.28,93.98,U3,VSS,GND,,,"/>
 <approved hash="104,1,63.5,38.1,U4,VDD,+3V3,,,"/>
-<approved hash="113,1,195.275,19.7358,FRAME1,,,,,"/>
-<approved hash="113,1,218.203,60.8288,JP1,,,,,"/>
-<approved hash="113,1,183.117,68.7112,JP3,,,,,"/>
-<approved hash="113,1,72.5212,15.0029,ANT,,,,,"/>
-<approved hash="113,1,50.8,38.8832,U4,,,,,"/>
-<approved hash="113,1,108.983,35.4288,JP4,,,,,"/>
 </errors>
 </schematic>
 </drawing>

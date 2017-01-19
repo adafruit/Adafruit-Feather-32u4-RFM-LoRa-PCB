@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6772,6 +6772,8 @@ einem neuen Namen ab.</description>
 <wire x1="50.1015" y1="21.1455" x2="50.1015" y2="19.177" width="0.254" layer="1"/>
 <wire x1="50.1015" y1="19.177" x2="49.9745" y2="19.05" width="0.254" layer="1"/>
 <wire x1="49.9745" y1="19.05" x2="49.9745" y2="18.757" width="0.254" layer="1"/>
+<contactref element="IC1" pad="28"/>
+<wire x1="23.5585" y1="17.7165" x2="23.5585" y2="14.524" width="0.254" layer="1"/>
 </signal>
 <signal name="D7_IRQ">
 <contactref element="IC1" pad="1"/>
@@ -6848,9 +6850,6 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="DIO5">
 <contactref element="U4" pad="15P"/>
-</signal>
-<signal name="8">
-<contactref element="IC1" pad="28"/>
 </signal>
 </signals>
 </board>
